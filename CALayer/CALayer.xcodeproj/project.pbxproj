@@ -13,6 +13,8 @@
 		574AD8BD1AB7F8DB00AC3078 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574AD8BC1AB7F8DB00AC3078 /* Images.xcassets */; };
 		574AD8CC1AB7F8DB00AC3078 /* CALayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 574AD8CB1AB7F8DB00AC3078 /* CALayerTests.m */; };
 		574AD8D71AB7FAF500AC3078 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574AD8D61AB7FAF500AC3078 /* QuartzCore.framework */; };
+		574AD8DB1AB7FFCB00AC3078 /* avatar-heaven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 574AD8DA1AB7FFCB00AC3078 /* avatar-heaven.jpg */; };
+		574AD8DD1AB8065A00AC3078 /* 2.7.png in Resources */ = {isa = PBXBuildFile; fileRef = 574AD8DC1AB8065A00AC3078 /* 2.7.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		574AD8CB1AB7F8DB00AC3078 /* CALayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerTests.m; sourceTree = "<group>"; };
 		574AD8D51AB7F8FF00AC3078 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		574AD8D61AB7FAF500AC3078 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		574AD8DA1AB7FFCB00AC3078 /* avatar-heaven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avatar-heaven.jpg"; sourceTree = "<group>"; };
+		574AD8DC1AB8065A00AC3078 /* 2.7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.7.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		574AD8AE1AB7F8DB00AC3078 /* CALayer */ = {
 			isa = PBXGroup;
 			children = (
+				574AD8DA1AB7FFCB00AC3078 /* avatar-heaven.jpg */,
+				574AD8DC1AB8065A00AC3078 /* 2.7.png */,
 				574AD8B31AB7F8DB00AC3078 /* AppDelegate.h */,
 				574AD8B41AB7F8DB00AC3078 /* AppDelegate.m */,
 				574AD8B61AB7F8DB00AC3078 /* ViewController.h */,
@@ -199,7 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574AD8DD1AB8065A00AC3078 /* 2.7.png in Resources */,
 				574AD8BD1AB7F8DB00AC3078 /* Images.xcassets in Resources */,
+				574AD8DB1AB7FFCB00AC3078 /* avatar-heaven.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
